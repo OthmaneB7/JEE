@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymleaf/layout"
+	layout:decorate="layout">
+	<head>
+		<meta charset="utf-8">
+		<title>Dashboard Page</title>
+	</head>
+	<body>
+	<div layout:fragment="c1">
+		<div class="container home-stats text-center">
+		          <h1>Dashboard</h1>
+		          <div class="row">
+		              <div class="col-md-6">
+		                  <div class="stat st-ville">
+		                    <div class="info">  
+		                     Villes
+		                    <span><a th:href="@{/gestionVille}">5</a></span>
+		                  </div>
+		                  </div>
+		              </div> 
+		              <div class="col-md-6">
+		                  <div class="stat st-pending">
+		                  <div class="info">  
+		                   Places
+		                  <span><a th:href="@{gestionPlace}">356</a></span>
+		                  </div>
+		              </div>
+		             </div> 
+		             <div class="col-md-6">
+		                <div class="stat st-films">
+		                <div class="info">
+		                 films
+		                <span><a th:href="@{gestionFilm}">5</a></span>
+		                </div>
+		            </div>
+		             </div>
+		             <div class="col-md-6">
+		              <div class="stat st-comments">
+		                <div class="info">  
+		                 Projections
+		              <span><a th:href="@{gestionProjection}">163</a></span>
+		              </div>
+		             </div>
+		              
+		             </div> 
+		
+		          </div>
+		          <div class="row rw2">
+		              <div class="col-md-6">
+		                  <div class="stat st-salle">
+		                    <div class="info">  
+		                     Salles
+		                    <span><a th:href="@{gestionSalle}">126</a></span>
+		                  </div>
+		                  </div>
+		              </div> 
+		              <div class="col-md-6">
+		                  <div class="stat st-ticket">
+		                  <div class="info">  
+		                   Tickets
+		                  <span><a th:href="@{gestionTickets}">1400</a></span>
+		                  </div>
+		              </div>
+		             </div> 
+		             <div class="col-md-6">
+		                <div class="stat st-cat">
+		                <div class="info">  
+		                 Categories
+		                <span><a th:href="@{gestionCategories}">4</a></span>
+		                </div>
+		            </div>
+		             </div>
+		             <div class="col-md-6">
+		              <div class="stat st-cin">
+		                <div class="info">  
+		                 Cinemas
+		              <span><a th:href="@{gestionCinemas}">16</a></span>
+		              </div>
+		             </div>
+		              
+		             </div> 
+		
+		          </div>
+		        </div>
+	</div>
+		
+		
+		
+	</body>
+</html>	

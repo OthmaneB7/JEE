@@ -1,0 +1,83 @@
+.panelT{
+	margin-top: 30px
+}
+
+body {
+    background-color: #2f3e46;
+    font-size: 18px;
+}
+
+h1 {
+	text-align: center;
+    font-size: 55px;
+    margin-top : -10px;
+    margin-bottom : 30px;
+    font-weight: bold;
+    color: #F4F4F4;
+}
+
+.home-stats .stat {
+    background-color: #EEE;
+     border: 1px solid #CCC;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat span{
+
+    display: block;
+    font-size: 50px;
+}
+.home-stats .st-ville{
+    background-color: #d8f3dc;
+    margin-bottom : 5px;
+}
+
+.home-stats .st-pending{
+    background-color: #52b788;
+    margin-bottom : 5px;
+}
+.home-stats .st-films{
+    background-color: #b7e4c7;
+    margin-bottom : 5px;
+}
+.home-stats .st-comments{
+    background-color: #40916c;
+    margin-bottom : 5px;
+}
+.home-stats .st-salle{
+    background-color: #95d5b2;
+    margin-bottom : 5px;
+}
+
+.home-stats .st-ticket{
+    background-color: #2d6a4f;
+    margin-bottom : 5px;
+}
+.home-stats .st-cat{
+    background-color: #74c69d;
+    margin-bottom : 5px;
+}
+.home-stats .st-cin{
+    background-color: #1b4332;
+    
+}
+
+.home-stats .stat a{
+    color: #FFF;
+
+}
+
+.home-stats .stat a:hover{
+    font-size : 60px;
+    color : black;
+
+
+}
+.rw2{
+	
+}
